@@ -62,9 +62,10 @@ Në këtë mënyrë, mesazhet janë të sigurta dhe mund të dekriptohen vetëm 
 - Pasi matrica mbushet, karakteret lexohen rresht pas rreshti për të rindërtuar mesazhin origjinal.  
 - Çdo karakter mbushës ‘X’ i shtuar gjatë enkriptimit hiqet nga fundi i mesazhit për të zbuluar tekstin origjinal të qartë.
 
-Rezultati:
+Rezultati për enkriptim:
 
-<img width="441" alt="Screenshot 2025-04-19 at 4 56 22 PM" src="https://github.com/user-attachments/assets/665623fe-3df1-4c30-815f-2bf9d83d37b7" />
 
+
+<img width="402" alt="Screenshot 2025-04-19 at 5 05 29 PM" src="https://github.com/user-attachments/assets/fc71864a-2709-423e-9be7-ea64612fd715" />
 
 
