@@ -19,7 +19,7 @@ Ky projekt lejon përdoruesit të enkriptojnë dhe dekriptojnë mesazhe duke pë
 2. Kompiloni files dhe ekzekutoni klasën `Main` për të përdorur aplikacionin.
 3. Përdorni opsionet në menu për të enkriptuar dhe dekriptuar mesazhe sipas cipher-it që dëshironi.
 
-## Cipher-i Beaufort
+## Beaufort Cipher_
 
 Formula kryesore që përdoret është:
 
