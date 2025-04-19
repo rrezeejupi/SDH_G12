@@ -37,8 +37,8 @@ public class Main {
                     plaintext = scanner.nextLine();
                     System.out.print("Enter key: ");
                     key = scanner.nextLine();
-//                    String decryptedBeaufort = BeaufortCipher.decrypt(plaintext, key);
-//                    System.out.println("Decrypted (Beaufort): " + decryptedBeaufort);
+                    String decryptedBeaufort = BeaufortCipherDecrypt.decrypt(plaintext, key);
+                    System.out.println("Decrypted (Beaufort): " + decryptedBeaufort);
                     break;
 
                 case "3":
