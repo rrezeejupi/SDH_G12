@@ -1,13 +1,5 @@
 # Enkriptimi dhe Dekriptimi me Beaufort Cipher dhe Diagonal Transposition Cipher - SDH25
 
-Ky projekt implementon dy teknika klasike të enkriptimit:
-1. Beaufort Cipher
-2. Diagonal Transposition Cipher
-
-Ofron funksionalitete për enkriptimin dhe dekriptimin për secilin cipher.
-
-## Përshkrimi
-
 Ky projekt lejon përdoruesit të enkriptojnë dhe dekriptojnë mesazhe duke përdorur:
 - **Beaufort Cipher**, një cipher simetrik i bazuar në cipher-in Vigenère, dhe
 - **Diagonal Transposition Cipher**, një cipher transpozicioni kolonash që riorganizon shkronjat në një model të caktuar.
@@ -27,7 +19,7 @@ Ky projekt lejon përdoruesit të enkriptojnë dhe dekriptojnë mesazhe duke pë
 2. Kompiloni files dhe ekzekutoni klasën `Main` për të përdorur aplikacionin.
 3. Përdorni opsionet në menu për të enkriptuar dhe dekriptuar mesazhe sipas cipher-it që dëshironi.
 
-### Cipher-i Beaufort
+## Cipher-i Beaufort
 
 Formula kryesore që përdoret është:
 
