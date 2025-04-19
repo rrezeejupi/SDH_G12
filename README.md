@@ -11,6 +11,9 @@ Ky projekt lejon përdoruesit të enkriptojnë dhe dekriptojnë mesazhe duke pë
   - Karakteret jo-shkronja (si hapësirat dhe pikat) mbeten të pandryshuara.
 
 - **Diagonal Transposition Cipher-i**:
+   - Enkriptimi bëhet duke shkruar mesazhin në një matricë dhe duke lexuar diagonalisht nga majtas-lart në djathtas-poshtë.
+   - Dekriptimi bëhet duke rikrijuar matricën nga teksti i enkriptuar dhe lexuar përsëri rresht pas rreshti dhe kolonë pas kolone.
+
 
 
 ## Si ta përdorni
@@ -29,3 +32,39 @@ ku **C** është shkronja e koduar, **K** është shkronja e çelësit, dhe **P*
 Çdo shkronjë e mesazhit është enkriptuar duke përdorur shkronjën përkatëse të çelësit, duke krijuar një tekst të koduar (ciphertext). Ky proces mund të kthehet prapa përmes dekriptimit duke përdorur të njëjtin çelës.
 
 Në këtë mënyrë, mesazhet janë të sigurta dhe mund të dekriptohen vetëm nga ata që kanë çelësin e saktë.
+
+# Diagonal Transposition Cipher
+
+## ENKRIPTIMI 
+
+ Përdorimi
+
+1. Shkruani mesazhin që dëshironi të enkriptoni.  
+2. Jepni numrin e kolonave për matricën e enkriptimit.  
+3. Programi do të kthejë tekstin e enkriptuar.  
+
+ Si Funksionon
+
+- Teksti i qartë konvertohet në shkronja të mëdha dhe krijohet një matricë karakteresh me numrin e specifikuar të kolonave. Nëse matrica nuk mbushet plotësisht, ajo mbushet me karakterin ‘X’.  
+- Teksti i enkriptuar formohet duke lexuar karakteret nga matrica në mënyrë diagonale, duke filluar nga këndi sipërmajtas dhe lëvizur drejt këndit poshtëdjathtas.
+
+## DEKRIPTIMI
+
+ Përdorimi
+
+1. Shkruani mesazhin e enkriptuar që dëshironi të dekriptoni.  
+2. Jepni numrin e kolonave për matricën e enkriptimit (i njëjti numër që është përdorur gjatë enkriptimit).  
+3. Programi do të kthejë tekstin e dekriptuar (mesazhin origjinal të qartë).  
+
+ Si Funksionon
+
+- Teksti i enkriptuar vendoset përsëri në matricë duke e mbushur atë sipas të njëjtit model transpozicioni diagonal që u përdor gjatë enkriptimit.  
+- Pasi matrica mbushet, karakteret lexohen rresht pas rreshti për të rindërtuar mesazhin origjinal.  
+- Çdo karakter mbushës ‘X’ i shtuar gjatë enkriptimit hiqet nga fundi i mesazhit për të zbuluar tekstin origjinal të qartë.
+
+Rezultati:
+
+<img width="441" alt="Screenshot 2025-04-19 at 4 56 22 PM" src="https://github.com/user-attachments/assets/665623fe-3df1-4c30-815f-2bf9d83d37b7" />
+
+
+
