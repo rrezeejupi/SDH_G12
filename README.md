@@ -69,4 +69,6 @@ Rezultati për enkriptim:
 
 <img width="402" alt="Screenshot 2025-04-19 at 5 05 29 PM" src="https://github.com/user-attachments/assets/fc71864a-2709-423e-9be7-ea64612fd715" />
 
+Rezultati per dekriptim:
 
+![Screenshot 2025-04-19 201327](https://github.com/user-attachments/assets/97deac21-14d9-4237-b7c2-46a5a048210f)
