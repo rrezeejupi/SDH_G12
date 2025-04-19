@@ -29,7 +29,8 @@ Formula kryesore që përdoret është:
 **C = K - P mod 26**,  
 ku **C** është shkronja e koduar, **K** është shkronja e çelësit, dhe **P** është shkronja e mesazhit fillestar.
 
-Çdo shkronjë e mesazhit është enkriptuar duke përdorur shkronjën përkatëse të çelësit, duke krijuar një tekst të koduar (ciphertext). Ky proces mund të kthehet prapa përmes dekriptimit duke përdorur të njëjtin çelës.
+Çdo shkronjë e mesazhit është enkriptuar duke përdorur shkronjën përkatëse të çelësit, duke krijuar një tekst të koduar (ciphertext).Ky proces mund të kthehet prapa përmes dekriptimit duke përdorur të njëjtin çelës.
+Nëse çelësi që përdorni për enkriptimin dhe dekriptimin është më i shkurtër se mesazhi (plaintext ose ciphertext), atëherë çelësi duhet të përsëritet (ripërsëritet) automatikisht për të mbuluar gjithë mesazhin. 
 
 Në këtë mënyrë, mesazhet janë të sigurta dhe mund të dekriptohen vetëm nga ata që kanë çelësin e saktë.
 
