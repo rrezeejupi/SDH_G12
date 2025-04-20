@@ -22,18 +22,41 @@ Ky projekt lejon përdoruesit të enkriptojnë dhe dekriptojnë mesazhe duke pë
 2. Kompiloni files dhe ekzekutoni klasën `Main` për të përdorur aplikacionin.
 3. Përdorni opsionet në menu për të enkriptuar dhe dekriptuar mesazhe sipas cipher-it që dëshironi.
 
-## Beaufort Cipher_
+## Beaufort Cipher
 
-Formula kryesore që përdoret është:
+## ENKRIPTIMI
 
-**C = K - P mod 26**,  
-ku **C** është shkronja e koduar, **K** është shkronja e çelësit, dhe **P** është shkronja e mesazhit fillestar.
+  Përdorimi
 
-Çdo shkronjë e mesazhit është enkriptuar duke përdorur shkronjën përkatëse të çelësit, duke krijuar një tekst të koduar (ciphertext).Ky proces mund të kthehet prapa përmes dekriptimit duke përdorur të njëjtin çelës.
-Nëse çelësi që përdorni për enkriptimin dhe dekriptimin është më i shkurtër se mesazhi (plaintext ose ciphertext), atëherë çelësi duhet të përsëritet (ripërsëritet) automatikisht për të mbuluar gjithë mesazhin. 
+1. Jepni mesazhin që dëshironi të enkriptoni.
+2. Jepni çelësin (fjalën kyçe).
+3. Programi kthen tekstin e enkriptuar.
 
-Në këtë mënyrë, mesazhet janë të sigurta dhe mund të dekriptohen vetëm nga ata që kanë çelësin e saktë.
+  Si funksionon
 
+- Teksti i qartë konvertohet në shkronja të mëdha.
+- Nëse çelësi është më i shkurtër se mesazhi, ai **ripërsëritet automatikisht**.
+- Aplikohet formula:
+                    C = (K - P) mod 26
+- ku:
+- `C` = shkronja e koduar  
+- `K` = shkronja e çelësit  
+- `P` = shkronja e mesazhit të qartë
+  
+## DEKRIPTIMI
+
+1. Jepni tekstin e enkriptuar.
+2. Jepni të njëjtin çelës që është përdorur gjatë enkriptimit.
+3. Programi kthen mesazhin origjinal.
+
+  Si funksionon
+
+- Çelësi ripërsëritet për të përputhur gjatësinë e mesazhit.
+- Aplikohet e njëjta formulë për të kthyer tekstin në gjendjen fillestare:
+                    P = (K - C) mod 26
+- Teksti i dekoduar përbën mesazhin origjinal.
+
+  
 # Diagonal Transposition Cipher
 
 ## ENKRIPTIMI 
