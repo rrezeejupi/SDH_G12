@@ -59,9 +59,11 @@ Ky projekt lejon përdoruesit të enkriptojnë dhe dekriptojnë mesazhe duke pë
 - Teksti i dekoduar përbën mesazhin origjinal.
 
 Rezultati për enkriptim:
+
 ![image](https://github.com/user-attachments/assets/f19caa79-44c5-45d2-bf72-18ad402eab3c)
 
 Rezultati per dekriptim:
+
 ![image](https://github.com/user-attachments/assets/1ed986e8-c776-4365-9089-4c9620dce92b)
 
   
