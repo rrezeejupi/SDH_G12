@@ -6,7 +6,7 @@ Ky projekt lejon përdoruesit të enkriptojnë dhe dekriptojnë mesazhe duke pë
 
 ## Karakteristikat
 
-- **Beaufort CiPher**:
+- **Beaufort Cipher**:
   - Enkripton dhe dekripton mesazhe duke përdorur një çelës.
   - Karakteret jo-shkronja (si hapësirat dhe pikat) mbeten të pandryshuara.
 
