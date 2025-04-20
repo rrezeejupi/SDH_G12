@@ -6,7 +6,7 @@ Ky projekt lejon përdoruesit të enkriptojnë dhe dekriptojnë mesazhe duke pë
 
 ## Karakteristikat
 
-- **Beaufort Cioher**:
+- **Beaufort CiPher**:
   - Enkripton dhe dekripton mesazhe duke përdorur një çelës.
   - Karakteret jo-shkronja (si hapësirat dhe pikat) mbeten të pandryshuara.
 
@@ -39,11 +39,13 @@ Ky projekt lejon përdoruesit të enkriptojnë dhe dekriptojnë mesazhe duke pë
 - Aplikohet formula:
                     C = (K - P) mod 26
 - ku:
-- `C` = shkronja e koduar  
-- `K` = shkronja e çelësit  
-- `P` = shkronja e mesazhit të qartë
+  - `C` = shkronja e koduar  
+  - `K` = shkronja e çelësit  
+  - `P` = shkronja e mesazhit fillestarë
   
 ## DEKRIPTIMI
+
+  Përdorimi
 
 1. Jepni tekstin e enkriptuar.
 2. Jepni të njëjtin çelës që është përdorur gjatë enkriptimit.
@@ -55,6 +57,12 @@ Ky projekt lejon përdoruesit të enkriptojnë dhe dekriptojnë mesazhe duke pë
 - Aplikohet e njëjta formulë për të kthyer tekstin në gjendjen fillestare:
                     P = (K - C) mod 26
 - Teksti i dekoduar përbën mesazhin origjinal.
+
+Rezultati për enkriptim:
+![image](https://github.com/user-attachments/assets/f19caa79-44c5-45d2-bf72-18ad402eab3c)
+
+Rezultati per dekriptim:
+![image](https://github.com/user-attachments/assets/1ed986e8-c776-4365-9089-4c9620dce92b)
 
   
 # Diagonal Transposition Cipher
@@ -88,10 +96,9 @@ Ky projekt lejon përdoruesit të enkriptojnë dhe dekriptojnë mesazhe duke pë
 
 Rezultati për enkriptim:
 
-
-
-<img width="402" alt="Screenshot 2025-04-19 at 5 05 29 PM" src="https://github.com/user-attachments/assets/fc71864a-2709-423e-9be7-ea64612fd715" />
+![image](https://github.com/user-attachments/assets/812080e0-7bc9-42d8-bc9a-2f83b4800d17)
 
 Rezultati per dekriptim:
 
-![Screenshot 2025-04-19 201327](https://github.com/user-attachments/assets/97deac21-14d9-4237-b7c2-46a5a048210f)
+![image](https://github.com/user-attachments/assets/6f6bef7a-0752-4c6f-9cbc-766b2cebb52c)
+
