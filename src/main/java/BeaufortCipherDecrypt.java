@@ -1,6 +1,5 @@
 
     public class BeaufortCipherDecrypt {
-        public static void main(String[] args) {
           
         public static String decrypt(String ciphertext, String key) {
             StringBuilder plaintext = new StringBuilder();
@@ -28,4 +27,4 @@
         }
     }
 
-}
+

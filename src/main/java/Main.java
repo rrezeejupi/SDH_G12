@@ -6,7 +6,7 @@ public class Main {
         String choice;
 
         while (true) {
-            System.out.println("\n📜 Choose an option:");
+            System.out.println("Choose an option:");
             System.out.println("1. Encrypt with Beaufort Cipher");
             System.out.println("2. Decrypt with Beaufort Cipher");
             System.out.println("3. Encrypt with Diagonal Transposition Cipher");
@@ -55,8 +55,8 @@ public class Main {
                     plaintext = scanner.nextLine();
                     System.out.print("Enter key (a number): ");
                     int numKeyDecrypt = Integer.parseInt(scanner.nextLine());
-//                    String decryptedTransposition = DiagonalTranspositionCipher.decrypt(plaintext, numKeyDecrypt);
-//                    System.out.println("Decrypted (Transposition): " + decryptedTransposition);
+                    String decryptedTransposition = DiagonalTranspositionCipherDecrypt.decrypt(plaintext, numKeyDecrypt);
+                    System.out.println("Decrypted (Transposition): " + decryptedTransposition);
                     break;
 
                 default:
