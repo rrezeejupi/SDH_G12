@@ -41,7 +41,7 @@ Ky projekt lejon përdoruesit të enkriptojnë dhe dekriptojnë mesazhe duke pë
 - ku:
   - `C` = shkronja e koduar  
   - `K` = shkronja e çelësit  
-  - `P` = shkronja e mesazhit fillestarë
+  - `P` = shkronja e mesazhit origjinal
   
 ## DEKRIPTIMI
 
@@ -60,7 +60,7 @@ Ky projekt lejon përdoruesit të enkriptojnë dhe dekriptojnë mesazhe duke pë
 
 Rezultati për enkriptim:
 
-![image](https://github.com/user-attachments/assets/f19caa79-44c5-45d2-bf72-18ad402eab3c)
+![image](https://github.com/user-attachments/assets/68b08cf5-d091-4685-b023-8b743c69c08b)
 
 Rezultati per dekriptim:
 
