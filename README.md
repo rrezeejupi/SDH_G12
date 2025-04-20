@@ -10,7 +10,7 @@ Ky projekt lejon përdoruesit të enkriptojnë dhe dekriptojnë mesazhe duke pë
   - Enkripton dhe dekripton mesazhe duke përdorur një çelës.
   - Karakteret jo-shkronja (si hapësirat dhe pikat) mbeten të pandryshuara.
 
-- **Diagonal Transposition Cipher-i**:
+- **Diagonal Transposition Cipher**:
    - Enkriptimi bëhet duke shkruar mesazhin në një matricë dhe duke lexuar diagonalisht nga majtas-lart në djathtas-poshtë.
    - Dekriptimi bëhet duke rikrijuar matricën nga teksti i enkriptuar dhe lexuar përsëri rresht pas rreshti dhe kolonë pas kolone.
 
